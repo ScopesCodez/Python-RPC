@@ -12,5 +12,5 @@ print(f'[{Fore.GREEN}{Style.BRIGHT}*{Fore.RESET}] https://discord.com/developers
 print(f'[{Fore.GREEN}{Style.BRIGHT}*{Fore.RESET}] https://github.com/tokenlogger/Python-RPC/')
 print(f'[{Fore.GREEN}{Style.BRIGHT}+{Fore.RESET}] Set presence.')
 while True: #loop to keep the presence running
-    rpc.update(details=config.get('details'), large_image=config.get('largeimage'), small_image=config.get('smallimage'), large_text=config.get('largeimagetect'), buttons=(config.get('button')))
+    rpc.update(details=config.get('details'), large_image=config.get('largeimage'), small_image=config.get('smallimage'), large_text=config.get('largeimagetect'), buttons=(config.get('buttons')))
     time.sleep(15)
