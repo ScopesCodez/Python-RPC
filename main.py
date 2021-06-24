@@ -1,6 +1,5 @@
 import time, json
 from pypresence import Presence
-from pypresence.exceptions import InvalidID
 from colorama import Fore, Style, init
 init() #colorama initialize idk
 
