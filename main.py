@@ -2,7 +2,7 @@ import time, json
 from pypresence import Presence
 from pypresence.exceptions import InvalidID
 from colorama import Fore, Style, init
-init() #colorama initualize idk
+init() #colorama initialize idk
 
 with open('config.json') as ok:
     config = json.load(ok)
