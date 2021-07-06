@@ -13,7 +13,7 @@ CD into whatever directory the file is in, or run this in an IDE, however you wa
 python3 main.py
 ```
 
-also pypresence can have 2 buttons just update config to the json below
+Also PyPresence can have 2 buttons just update **config.json** to the JSON below.
 
 ```json
 {
