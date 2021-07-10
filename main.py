@@ -10,6 +10,8 @@ def presence():
     try:
         rpc = Presence(config.get('applicationid'))
         rpc.connect()
+        os.system("clear||cls")
+        os.system("title [Python RPC] - Rich Presence Set.")
         print(f'[{Fore.GREEN+Style.BRIGHT}*{Fore.RESET}] https://discord.com/developers/applications\n[{Fore.GREEN+Style.BRIGHT}*{Fore.RESET}] https://github.com/tokenlogger/Python-RPC/\n[{Fore.GREEN+Style.BRIGHT}+{Fore.RESET}] Set presence.')
         while True: #loop to keep the presence running
             rpc.update(details=config.get('details'), large_image=config.get('largeimage'), small_image=config.get('smallimage'), large_text=config.get('largeimagetect'), buttons=(config.get('buttons')))
