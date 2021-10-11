@@ -1,6 +1,7 @@
 import time, json, pypresence.exceptions
 from pypresence import Presence
 from colorama import Fore, Style, init
+import os
 init() #colorama initialize idk
 
 with open('config.json') as ok:
